@@ -59,15 +59,38 @@ function Home() {
       {/* RESEARCH INTERESTS */}
       <section className="section">
         <p className="section-title">02 — Research Interests</p>
-        <div className="interests-grid">
-          <div className="interest-chip"><span className="icon">🤖</span> Artificial Intelligence</div>
-          <div className="interest-chip"><span className="icon">🧠</span> Machine Learning</div>
-          <div className="interest-chip"><span className="icon">💬</span> Natural Language Processing</div>
-          <div className="interest-chip"><span className="icon">💻</span> Web Development</div>
-          <div className="interest-chip"><span className="icon">🔐</span> Cyber Security</div>
-          <div className="interest-chip"><span className="icon">📊</span> Data Science</div>
-          
-        </div>
+        <div className="research-list">
+
+  <div className="research-item">
+    <h3>Artificial Intelligence</h3>
+    <p>Exploring intelligent systems that can simulate human reasoning, decision-making, and problem-solving in real-world applications.</p>
+  </div>
+
+  <div className="research-item">
+    <h3>Machine Learning</h3>
+    <p>Developing predictive models that learn from data to identify patterns, improve performance, and automate decision-making processes.</p>
+  </div>
+
+  <div className="research-item">
+    <h3>Deep Learning</h3>
+    <p>Working with neural networks to solve complex problems such as image recognition, speech processing, and advanced data analysis.</p>
+  </div>
+
+  <div className="research-item">
+    <h3>Natural Language Processing</h3>
+    <p>Building systems that understand, interpret, and generate human language, focusing on text analysis and language-based AI applications.</p>
+  </div>
+
+  <div className="research-item">
+    <h3>Generative AI</h3>
+    <p>Designing AI models capable of generating content such as text, images, and code, with applications in automation and creativity.</p>
+  </div>
+
+  <div className="research-item">
+    <h3>Cyber Security</h3>
+    <p>Studying techniques to protect systems, networks, and data from cyber threats, ensuring privacy and secure computing environments.</p>
+  </div>
+</div>
       </section>
 
       {/* SKILLS */}

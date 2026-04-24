@@ -239,6 +239,35 @@ body {
 
 .interest-chip .icon { font-size: 1.3rem; }
 
+/* NEW RESEARCH LIST STYLE */
+.research-list {
+  margin-top: 1rem;
+}
+
+.research-item {
+  margin-bottom: 1.5rem;
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  transition: all 0.3s;
+}
+
+.research-item:hover {
+  transform: translateX(5px);
+}
+
+.research-item h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--white);
+}
+
+.research-item p {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 /* SKILLS */
 .skills-grid {
   display: flex;
